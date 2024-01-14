@@ -1,3 +1,89 @@
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #FAFAFA;
+  color: #111;
+}
+
+.container {
+margin: 0 auto;
+max-width: 1166px;
+padding: 0 15px;
+}
+/*--------------------------------------*/
+/*------------------header--------------*/
+
+.header {}
+
+.header-box {
+  display: flex;
+}
+
+.header-nav {}
+
+.header-link-logo {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.header-img {}
+
+.header-list-nav {
+  display: flex;
+  gap:24px;
+}
+
+.header-link-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.header-item {
+}
+
+.header-list-link {}
+
+.header-list-media {
+  display: flex;
+}
+
+.header-list {}
+
+.heder-media {}
+
+.header-icon-media {
+
 }
